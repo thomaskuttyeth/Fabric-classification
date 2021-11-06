@@ -1,5 +1,5 @@
 # Fabric pattern classification using Transfer Learning
-Keras library which is built on TensorFlow is used to design and modify the networks along with other python libraries like sklearn, Pillow, NumPy and matplotlib are used for data preprocessing, image manipulation, array processing and visualization respectively. 
+Keras library which is built on TensorFlow is used to design and modify the networks along with other python libraries like sklearn, Pillow, NumPy and matplotlib for data preprocessing, image manipulation, array processing and visualization respectively. 
 ## Dataset 
 Dataset for this research work is scrapped from internet using python beautiful soup library. It has a total of more than 5000 images, covering seven categories of fabric designs. It is further divided into test and train using sklearn preprocessing library. For each image, ten more samples were generated using data augmentation technique by using Keras data generator. 
 You can download the dataset from Dataset link: https://drive.google.com/drive/folders/1p-ZeZaP3C8t2NIfdk7gpJYrd9czULufZ?usp=sharing.
